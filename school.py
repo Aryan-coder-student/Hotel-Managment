@@ -4,7 +4,7 @@ import numpy as np
 db = msqc.connect(
     host="localhost",
     username="root",
-    password="activa123456SWEETMANGO",
+    password="  ",
     database="hotel",
 )
 cur = db.cursor(buffered=True)
