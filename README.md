@@ -1,6 +1,6 @@
 # Hotel-Managment
 CBSE Term 2 Project on Hotel Mangement
-* Team Name :
+* Team Members :
   1. Satyam - Planning of Project
   2. Aryan Pahari - Code merge and written code 
   3. Aarav  - (To Be Decided)
