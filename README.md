@@ -2,7 +2,7 @@
 CBSE Term 2 Project on Hotel Mangement
 * Team Members :
   1. Satyam - Planning of Project
-  2. Aryan Pahari - Code merge and written code 
+  2. Aryan Pahari - Merge code and written code 
   3. Aarav  - (To Be Decided)
   4. Vaasu - (To Be Decided)
   5. Simran   - Design Room table 
