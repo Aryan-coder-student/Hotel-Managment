@@ -6,4 +6,4 @@ CBSE Term 2 Project on Hotel Mangement
   3. Aarav  - (To Be Decided)
   4. Vaasu - (To Be Decided)
   5. Simran   - Design Room table 
-  6. Nirali - Design booking_table
+  6. Astha - Design booking_table
