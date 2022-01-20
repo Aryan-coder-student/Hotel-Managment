@@ -1,4 +1,50 @@
-Room Table :
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.26 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| car                |
+| computer           |
+| hello              |
+| hotel              |
+| hotel_entry        |
+| hotel_management   |
+| information_schema |
+| marks_of_tests     |
+| mysql              |
+| performance_schema |
+| sakila             |
+| school_project     |
+| students           |
+| sys                |
+| world              |
++--------------------+
+15 rows in set (0.08 sec)
+
+mysql> use hotel;
+Database changed
+mysql> show tables;
++-----------------+
+| Tables_in_hotel |
++-----------------+
+| booking_details |
+| room            |
+| rooms           |
++-----------------+
+3 rows in set (0.03 sec)
+
+mysql> select * from rooms;
 +---------+----------+------------+-------------------+-------------------+---------------------+
 | one_bed | two_beds | three_beds | Available_one_bed | Available_two_bed | Available_three_bed |
 +---------+----------+------------+-------------------+-------------------+---------------------+
@@ -43,10 +89,7 @@ Room Table :
 |     138 |      179 |        219 | A                 | A                 | A                   |
 |     139 |      180 |        220 | A                 | A                 | A                   |
 +---------+----------+------------+-------------------+-------------------+---------------------+
-40 rows in set (0.01 sec)
-
-
-Booking Details:
+40 rows in set (0.02 sec)
 
 mysql> select * from booking_details;
 +-----------+----------+-----------+---------------+---------------+--------------+------------+--------------+---------+
@@ -61,4 +104,6 @@ mysql> select * from booking_details;
 | 2022-1-20 | 08:56    |         1 | Vicky sharma  |             2 | 963852349716 |          2 |         3000 |     103 |
 | 2022-1-20 | 08:57    |         1 | Vicky sharma  |             2 | 963852349716 |          2 |         3000 |     104 |
 +-----------+----------+-----------+---------------+---------------+--------------+------------+--------------+---------+
-8 rows in set (0.00 sec)
+8 rows in set (0.01 sec)
+
+mysql>
